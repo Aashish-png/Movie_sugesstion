@@ -1,0 +1,17 @@
+.iframeVideo{
+
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: 100vh;
+    zoom: 1.2;
+}
+.parentIframe{
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+.serachBarComponent{
+    z-index: 10;
+}
