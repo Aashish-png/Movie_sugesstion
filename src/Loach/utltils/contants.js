@@ -5,8 +5,9 @@ export const BELLICON =
   "https://firebasestorage.googleapis.com/v0/b/brotherssite-12d3f.appspot.com/o/Bell.svg?alt=media&token=f92d8c62-2b75-4eeb-ba59-752f8388855b";
 
 export const CARDS = [
-  "https://firebasestorage.googleapis.com/v0/b/brotherssite-12d3f.appspot.com/o/Card%201.png?alt=media&token=70bebab4-4f7f-47d2-9f3d-255c402b3f75",
-  "https://firebasestorage.googleapis.com/v0/b/brotherssite-12d3f.appspot.com/o/card2.png?alt=media&token=8ea0978d-0585-46ce-b305-984da1b93962",
+    'https://firebasestorage.googleapis.com/v0/b/brotherssite-12d3f.appspot.com/o/cardnew%202.png?alt=media&token=960d87ac-ee2b-4c98-b7f0-c56c395f86c2',
+//   "https://firebasestorage.googleapis.com/v0/b/brotherssite-12d3f.appspot.com/o/Card%201.png?alt=media&token=70bebab4-4f7f-47d2-9f3d-255c402b3f75",
+  "https://firebasestorage.googleapis.com/v0/b/brotherssite-12d3f.appspot.com/o/newcard2.png?alt=media&token=0696dcb9-2f49-4f69-a6f0-76c0bdb95618",
   "https://firebasestorage.googleapis.com/v0/b/brotherssite-12d3f.appspot.com/o/card3new.png?alt=media&token=d9a26540-5c8f-4d81-bf0b-f2b1a6a95377",
 ];
 
