@@ -1,0 +1,50 @@
+.container {
+  position: absolute;
+  aspect-ratio: 16/9;
+  background: linear-gradient(to right, #000000, transparent);
+  padding: 0 4rem;
+  color: white;
+  width: 100%;
+  height: 109vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 6xl;
+  font-weight: bold;
+}
+
+p {
+  padding-top: 6px;
+  font-size: 1.5rem;
+  width: 25%;
+}
+
+.flex {
+  display: flex;
+  gap: 3px;
+}
+
+.button {
+  padding: 16px 48px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
+
+.play {
+  background-color: white;
+  color: black;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.more-info {
+  background-color: #7f7f7f;
+  color: white;
+  background-opacity: 0.5;
+}

@@ -2,12 +2,13 @@ import React from "react";
 import useMovieTrailer from "../../hooks/useMovieTrailer";
 import "./Videoback.css";
 import { useSelector } from "react-redux";
-import { SearchBar } from "../SearchBar/SearchBar";
+import SearchBar from "../SearchBar/SearchBar.jsx"
+import { Videotitle } from "../Videotitle/Videotitle.jsx";
 
-const Videoback = ({ movieId }) => {
+const Videoback = ({ movieId ,title, overview}) => {
   const trailer = useSelector((store) => store.movies?.TrailerVideo);
   useMovieTrailer(movieId);
-
+  console.log("tiera", trailer)
   return (
     <div className="parentIframe">
       <iframe
@@ -18,6 +19,7 @@ const Videoback = ({ movieId }) => {
         muted
       ></iframe>
       <SearchBar className="serachBarComponent" />
+        <Videotitle  title={title}   overview={overview} />
     </div>
   );
 };

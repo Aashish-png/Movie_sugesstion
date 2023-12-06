@@ -4,6 +4,12 @@ import { IMG_URL } from '../../utils/constants'
 import { dummyImg } from '../../utils/constants'
 
 const Cards = ({imgUrl , rating, title, date}) => {
+  const releaseDate = new Date(date);
+  const formattedDate = releaseDate.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
 
     if(!imgUrl) imgUrl=dummyImg
     else imgUrl=IMG_URL+imgUrl
@@ -16,7 +22,7 @@ const Cards = ({imgUrl , rating, title, date}) => {
         </div>
         <div className='bottom'>
             <span>{title} </span>
-            <span> 20 jan 2020</span>
+            <span> {formattedDate}</span>
         </div>
 
 

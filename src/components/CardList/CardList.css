@@ -15,8 +15,31 @@
 .cardListMain::-webkit-scrollbar-track{
     background: rgb(26, 26, 25);
 }
-.cardListMain::-webkit-scrollbar-thumb{
-    background: rgb(210, 35, 0);
+/* .cardListMain::-webkit-scrollbar-thumb{
+    background: rgb(22, 19, 19);
     border-radius: 12px;
 
+} */
+
+.parentOfcardList{
+    display: flex;
+    flex-direction: column;
+}
+.btns {
+    background: #030401;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    color: white;
+    padding: 0 2%;
+}
+.btns span{
+    /* background: #ff000052; */
+    /* background: #a2828252; */
+    padding: 20px;
+    font-weight: 800;
+    border-radius: 13px;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
