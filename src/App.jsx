@@ -3,6 +3,7 @@ import './App.css'
 import { LandingPage } from './components/landingPage/LandingPage.jsx'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
+import HomeScreen from './Loach/Components/HomeScreen/HomeScreen.jsx'
 
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
       path:"/",
       element:<LandingPage/>
   },
-    // {
-    //     path:"/login",
-    //     element:<Login/>
-    // },
+    {
+        path:"/login",
+        element:<HomeScreen/>
+    },
     // {
     //     path:"/browse",
     //     element:<Browse/>
