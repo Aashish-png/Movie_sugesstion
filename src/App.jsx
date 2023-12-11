@@ -4,6 +4,7 @@ import { LandingPage } from './components/landingPage/LandingPage.jsx'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 import HomeScreen from './Loach/Components/HomeScreen/HomeScreen.jsx'
+import { WatchTrailer } from './components/WatchTrailer/WatchTrailer.jsx'
 
 
 function App() {
@@ -17,10 +18,10 @@ function App() {
         path:"/login",
         element:<HomeScreen/>
     },
-    // {
-    //     path:"/browse",
-    //     element:<Browse/>
-    // },
+    {
+        path:"/watchTrailer",
+        element:<WatchTrailer/>
+    },
 ])
 
 

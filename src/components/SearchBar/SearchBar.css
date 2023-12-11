@@ -16,16 +16,16 @@
     align-items: center;
     margin: 20px;
   }
-/*   
-  input {
+  
+  .search-bar-container input {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
     width: 70%;
   }
-   */
-  /* button {
+  
+ .search-bar-container button {
     padding: 10px 15px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -33,9 +33,9 @@
     cursor: pointer;
     background-color: #4caf50;
     color: #fff;
-  } */
+  } 
   
-  /* button:hover {
+  .search-bar-container button:hover {
     background-color: #45a049;
   }
-   */
+  

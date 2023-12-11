@@ -20,14 +20,6 @@ const SearchBar = () => {
        dispatch(addSearchData(data))
    }
  
-  //  useEffect(()=>{   //// every time query values channge and 2 second delay then 
-  //   let time=  setTimeout(() => {
-  //     useSearchMovieApi()
-      
-  //   }, 2000);
-  //   return clearTimeout(time)
-  //  },[query])
-
   const handleSearch = () => {
     if (query.trim() !== '') {
       useSearchMovieApi()

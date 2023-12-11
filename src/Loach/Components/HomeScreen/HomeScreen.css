@@ -2,8 +2,9 @@
     width: 100%;
     height: 100vh;
     height: 100dvh;
-    background: black;
+    /* background: black; */
     display: flex;
+    background: linear-gradient(45deg, #3de82ccf, #2F15D0, #00000000);
 }
 /* box-shadow: inset 3px 3px 17px 19px #000000c4;  */
 .leftBox {

@@ -8,7 +8,6 @@ import { Videotitle } from "../Videotitle/Videotitle.jsx";
 const Videoback = ({ movieId ,title, overview}) => {
   const trailer = useSelector((store) => store.movies?.TrailerVideo);
   useMovieTrailer(movieId);
-  console.log("tiera", trailer)
   return (
     <div className="parentIframe">
       <iframe

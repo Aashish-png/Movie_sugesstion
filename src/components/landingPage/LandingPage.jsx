@@ -6,7 +6,7 @@ import { CardList } from '../CardList/CardList.jsx'
 import useNowPlaying from '../../hooks/useNowPlaying.js'
 import MainConatiner from '../MainConatiner/MainConatiner.jsx'
 import usePopular from '../../hooks/usePopular.js'
-import useTopRated from '../../hooks/useToprated.js'
+import useTopRated from '../../hooks/useTopRated.js'
 import useUpcoming from '../../hooks/useUpcoming.js'
 import SearchBar from '../SearchBar/SearchBar.jsx'
 export const LandingPage = () => {
